@@ -1,3 +1,45 @@
+.card{
+    width:300px;
+    padding:10px;
+    background-color: rgb(245, 243, 243);
+   
+}
+.card h2{
+ font-weight:600;
+ font-size:18px;
+}
+
+.btn{
+   width:99%;
+   margin-left: 3px;
+   padding: 15px;
+   border-radius:30px; 
+   color:white;
+   background-color: hsl(224, 30%, 27%);
+   border: none;
+}
 .list{
-    margin:100px auto;
+    padding:0px;
+}
+.image{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:2px;
+}
+.summ{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px;
+    padding:5px;
+    background-color: blueviolet;
+    height:40px;
+    border-radius:10px;
+   
+
+}
+
+.summ img{
+    padding:10px;
 }

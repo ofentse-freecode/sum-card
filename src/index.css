@@ -16,5 +16,16 @@ code {
     display:flex;
     align-items: center;
     justify-content: center;
+    margin:100px;
 
+}
+
+@media (max-width: 768px){
+  .App{
+display:inline;
+align-items:center;
+justify-content: center;
+margin:100px;
+padding:100px;
+  };
 }

@@ -10,14 +10,16 @@ const sum = () => {
       <h2>Summary</h2>
       
       <ul className="list">
+        <div className="card-1">
         <li className="summ">
           <div className="image"><img className='logo' src={reaction} alt ="logo" /><h6>Reaction</h6></div>
         <div>
           <p>80/100</p>
         </div>
         </li>
+        </div>
 
-
+        <div className="card-2">
         <li className="summ">
           <div className="image"><img className='logo' src={memory} alt ="logo" />
           <h6>Memory</h6>
@@ -27,7 +29,9 @@ const sum = () => {
         <p>80/100</p>
         </div>
         </li>
+        </div>
 
+        <div className="card-3">
         <li className="summ">
           <div className="image"><img className='logo' src={verbal} alt ="logo" /><h6>Verbal</h6></div>
 
@@ -35,14 +39,16 @@ const sum = () => {
         <p>80/100</p>
         </div>
         </li>
+        </div>
 
+        <div className="card-4">
         <li className="summ">
           <div className="image"><img className='logo' src={visual} alt ="logo" /><h6>Visual</h6></div>
         <div>
         <p>80/100</p>
         </div>
         </li>
-
+        </div>
 
       </ul>
 
